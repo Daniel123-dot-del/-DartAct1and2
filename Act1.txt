@@ -1,0 +1,19 @@
+void main() {
+ String greeting = 'Welcome';
+ String  user = 'Alice';
+    print ('$greeting, $user! ' );
+}
+
+
+void main() {
+ String greeting = 'Welcome';
+ dynamic user = 'Alice';
+   user = 25;
+    print ('$greeting, $user! ' );
+}
+
+
+Explanation
+
+  In the dart programming when using an dynamic is design to accept any data type for example integer, string, etc. to run without an compilation error  through execution in the change in the last line of the program.
+
